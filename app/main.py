@@ -35,7 +35,7 @@ point2Risk = {
 
 @app.get("/")
 async def root():
-    return {"message": "Hello FastAPI"}
+    return {"service": "CAAKI API"}
 
 
 @app.get("/CAAKI")
